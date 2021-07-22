@@ -1,0 +1,7 @@
+#toggle {
+  &:checked ~ label {
+    .toggle-button {
+    @apply translate-x-3;
+    }
+  }
+}
